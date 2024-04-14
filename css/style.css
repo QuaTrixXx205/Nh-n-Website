@@ -43,7 +43,7 @@ html {
 body {
      color: #666666;
      font-size: 14px;
-     font-family:Poppins;
+     font-family:'Roboto';
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
@@ -229,6 +229,10 @@ button {
 }
 .navbar {
     padding: 20px 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 10px;
@@ -238,7 +242,6 @@ button {
 .bg-light {
     background-color: #fefeff !important;
     box-shadow: 0px 0px 10px 0px;
-    border-top: 45px solid #333a44;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #24292f;
@@ -257,13 +260,13 @@ button {
     float: left;
     background-image: url(../images/banner-bg.png);
     height: auto;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     background-size: cover;
 }
 .image_1 {
     width: 100%;
-    float: left;
-    padding-top: 40px;
+    float: right;
+    padding: 40px 0 0 40px;
 }
 
 .video_text{
@@ -282,7 +285,7 @@ button {
     color: #599ee9;
     font-weight: 600;
     text-transform: uppercase;
-    line-height: 50px;
+    line-height: 70px;
 }
 .banner_text {
     width: 100%;
@@ -354,7 +357,6 @@ button {
 .image_2 {
     width: 100%;
     float: left;
-    padding-top: 50px;
 }
 
 .about_text{
@@ -373,7 +375,7 @@ button {
     font-size: 16px;
     color: #2d343e;
     margin-left: 0px;
-    text-align: right;
+    text-align: justify;
 }
 
 .shop_bt_2 {
