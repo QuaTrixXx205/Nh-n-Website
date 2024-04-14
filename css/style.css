@@ -43,7 +43,7 @@ html {
 body {
      color: #666666;
      font-size: 14px;
-     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-family:Poppins;
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
@@ -184,11 +184,6 @@ img {
      padding: 0;
 }
 
-.container
-{
-    width: 1000px;
-}
-
 .form-control:focus {
      border-color: #ffffff !important;
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
@@ -229,14 +224,12 @@ button {
 }
 
 .logo {
-    width: 5% !important;
+    width: 18%;
     float: left;
-    display: inline-block;
 }
 .navbar {
     padding: 20px 30px;
 }
-
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 10px;
     padding-left: 10px;
@@ -245,6 +238,7 @@ button {
 .bg-light {
     background-color: #fefeff !important;
     box-shadow: 0px 0px 10px 0px;
+    border-top: 45px solid #333a44;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #24292f;
@@ -258,57 +252,13 @@ button {
     color: #4f99e5;
 }
 
-section {
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px 10px rgba(69, 60, 60, 0.1);
-    background-color: #fff; /* Màu nền trắng */
-}
-.tieude
-{
-	display: inline-block;
-	width: 100%;
-	text-align: center;
-	margin-bottom: 10px;
-}
-
-.noidung
-{
-	display: flex;
-	flex-direction: row;
-}
-
-h1, h2 {
-    margin-top: 0;
-}
-
-h2 {
-    color: #333;
-}
-
-img
-{
-	max-width: 50%; 
-  	margin-right: 20px;
-}
-
-p {
-    line-height: 1.6;
-}
-
-
-  
-
-
 .banner_section {
-    width: auto;
-    background-image: url(https://wallpapercave.com/wp/wp10431123.jpg);
-    height: 500px;
+    width: 100%;
+    float: left;
+    background-image: url(../images/banner-bg.png);
+    height: auto;
     padding-bottom: 200px;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 .image_1 {
     width: 100%;
@@ -327,13 +277,11 @@ p {
 }
 .controller_text {
     width: 100%;
-    text-align: center;
+    float: left;
     font-size: 70px;
-    color: #ffffff;
+    color: #599ee9;
     font-weight: 600;
     text-transform: uppercase;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     line-height: 50px;
 }
 .banner_text {
@@ -409,17 +357,13 @@ p {
     padding-top: 50px;
 }
 
-.image_4
-{
-    width: 500px;
-}
-
 .about_text{
     width: 100%;
     float: left;
     font-size: 50px;
     color: #2d343e;
     font-weight: 600;
+    text-transform: uppercase;
     text-align: right;
 }
 
@@ -429,7 +373,6 @@ p {
     font-size: 16px;
     color: #2d343e;
     margin-left: 0px;
-    font-size: 200!important;
     text-align: right;
 }
 
@@ -542,10 +485,10 @@ p {
 .video_text_2{
     width: 100%;
     float: left;
-    font-size: 40px;
-    color: #f9f9f9;
+    font-size: 50px;
+    color: #599ee9;
     font-weight: 600;
-    
+    text-transform: uppercase;
 
 }
 .controller_text_2 {
@@ -564,7 +507,7 @@ p {
     color: #fefeff;
     font-weight: 500;
     margin-left: 0px;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 .testimonial_section{
