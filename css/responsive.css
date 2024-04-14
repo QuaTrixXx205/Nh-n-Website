@@ -80,6 +80,10 @@
     #collapseFilter.d-md-block {
         padding: 30px 0px;
     }
+
+    .about_text{
+        text-align: center;
+    }
 }
 
 
@@ -127,7 +131,9 @@
         top: 0;
     }
 
-
+    .about_text{
+        text-align: center;
+    }
 
 
 
