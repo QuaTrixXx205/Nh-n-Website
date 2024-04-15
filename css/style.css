@@ -447,13 +447,13 @@ button {
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .game_text {
     width: 100%;
     float: left;
-    font-size: 30px;
+    font-size: 24px;
     color: #2d343e;
     text-align: center;
 }
@@ -823,6 +823,18 @@ button {
     height: auto;
     margin-top: -40px;
 }
+
+.member-picture{
+    transition: all 0.25s ease;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.member-picture img:hover{
+    transform: scale(1.1);
+}
+  
 
 .copyright_text{
     width: 100%;
