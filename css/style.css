@@ -60,6 +60,80 @@ a {
      transition: all .3s ease-in-out;
 }
 
+.swiper-container {
+    width: 80%;
+    height: 100%;
+    margin: 30px 0;
+}
+
+.prev-button,
+.next-button{
+    background-color: #4f99e5;
+    color: white;
+    width: 40px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+.prev-button:hover{
+    background-color: white;
+}
+
+.prev-button h1:hover{
+    color: #000000;
+}
+
+.next-button:hover{
+    background-color: white;
+}
+
+.next-button h1:hover{
+    color: #000000;
+}
+
+.prev-button h1,
+.next-button h1{
+    color: white;
+}
+
+.contributor-card{
+    margin-bottom: 20px;
+}
+
+.contributor-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contributor-heading-text h1{
+    font-weight: bold;
+}
+
+.contributor-role p{
+    color: #4f99e5;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.contributor-event-image{
+    width: 100%;
+}
+
+.contributor-event-image img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
 h1,
 h2,
 h3,
@@ -357,10 +431,6 @@ button {
     background-color: #f2f7fd;
     height: auto;
     padding-bottom: 90px;
-}
-
-.hinh{
-    height: 100px;
 }
 
 .image_2 {

@@ -31,6 +31,11 @@
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
     media="screen">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+</head>
 </head>
 
 <body>
@@ -168,61 +173,133 @@
   <!-- product section end -->
 
   <!-- contributors -->
-  <div class="video_section layout_padding">
-    <div class="container">
-      <div class="product_text" id="contributors"><span style="color: #ffffff;">contributors</span></div>
-      <div class="row d-flex justify-content-around">
-        <div class="col-md-5 offset-1 col1 contributor-card">
-          <a href="https://sites.google.com/view/ndtl03" target="_blank">
-            <div class="hinh">
-              <div class="image_2 member-picture">
-                <img src="images/lợi.jpg"
-                  style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
+  <div class="video_section">
+    <div class="product_text"><span style="color: #5ca0e9;">Contributors</span></div>
+    <div class="swiper-container swiper">
+      <div class="swiper-wrapper">
+          <!-- Slides will be added here -->
+          <div class="contributor-card swiper-slide">
+              <a href="https://sites.google.com/view/ndtl03" target="_blank">
+                <div class="card-detail">
+                  <!-- contributor image -->
+                  <div class="contributor-card-image">
+                      <div class="contributor-event-image">
+                          <img src="images/lợi.jpg" alt="">
+                      </div>
+                  </div>
+                  <div class="contributor-card-content">
+                      <!-- contributor header -->
+                      <div class="contributor-heading-text">
+                          <h1>Nguyễn Dương Tấn Lợi</h1>
+                      </div>
+                      <!-- contributor role -->
+                      <div class="contributor-role">
+                          <p>Leader</p>
+                      </div>
+                  </div>
+                </div>
+              </a>
+          </div>
+          <div class="contributor-card swiper-slide">
+            <a href="https://sites.google.com/view/subacito/cv" target="_blank">
+              <div class="card-detail">
+                <!-- contributor image -->
+                <div class="contributor-card-image">
+                    <div class="contributor-event-image">
+                        <img src="images/Vỹ.jpg" alt="">
+                    </div>
+                </div>
+                <div class="contributor-card-content">
+                    <!-- contributor header -->
+                    <div class="contributor-heading-text">
+                        <h1>Nguyễn Trần Giang Vỹ</h1>
+                    </div>
+                    <!-- contributor role -->
+                    <div class="contributor-role">
+                        <p>Member</p>
+                    </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="contributor-card swiper-slide">
+          <a href="https://sites.google.com/view/quang-dev/home" target="_blank">
+            <div class="card-detail">
+              <!-- contributor image -->
+              <div class="contributor-card-image">
+                  <div class="contributor-event-image">
+                      <img src="images/Quang.jpg" alt="">
+                  </div>
+              </div>
+              <div class="contributor-card-content">
+                  <!-- contributor header -->
+                  <div class="contributor-heading-text">
+                      <h1>Nguyễn Hào Quang</h1>
+                  </div>
+                  <!-- contributor role -->
+                  <div class="contributor-role">
+                      <p>Member</p>
+                  </div>
               </div>
             </div>
-            <div class="price_text">Nguyễn Dương Tấn Lợi</div>
-            <h1 class="game_text">Leader </h1>
           </a>
-        </div>
-        <div class="col-md-5 offset-1 col1 contributor-card">
-          <a href="https://sites.google.com/view/subacito/cv" target="_blank" class="zoom-effect">
-            <div class="hinh">
-              <div class="image_2 member-picture"><img src="images/Vỹ.jpg"
-                  style="border-top-left-radius: 10px; border-top-right-radius: 10px;"></div>
+          </div>
+          <div class="contributor-card swiper-slide">
+        <a href="https://sites.google.com/view/thanhtoan19" target="_blank">
+          <div class="card-detail">
+            <!-- contributor image -->
+            <div class="contributor-card-image">
+                <div class="contributor-event-image">
+                    <img src="images/toàn.jpg" alt="">
+                </div>
             </div>
-            <div class="price_text">Nguyễn Trần Giang Vỹ</div>
-            <h1 class="game_text">Member </h1>
-          </a>
-        </div>
-        <div class="col-md-5 offset-1 col1 contributor-card">
-          <a href="https://sites.google.com/view/quang-dev/home" target="_blank">
-            <div class="hinh">
-              <div class="image_2 member-picture"><img src="images/lợi.jpg"
-                  style="border-top-left-radius: 10px; border-top-right-radius: 10px;"></div>
+            <div class="contributor-card-content">
+                <!-- contributor header -->
+                <div class="contributor-heading-text">
+                    <h1>Nguyễn Ngô Thanh Toàn</h1>
+                </div>
+                <!-- contributor role -->
+                <div class="contributor-role">
+                    <p>Member</p>
+                </div>
             </div>
-            <div class="price_text">Nguyễn Hào Quang</div>
-            <h1 class="game_text">Member </h1>
-          </a>
+          </div>
+        </a>
+          </div>
+          <div class="contributor-card swiper-slide">
+      <a href="https://sites.google.com/view/hidreus" target="_blank">
+        <div class="card-detail">
+          <!-- contributor image -->
+          <div class="contributor-card-image">
+              <div class="contributor-event-image">
+                  <img src="images/Hieu.jpeg" alt="">
+              </div>
+          </div>
+          <div class="contributor-card-content">
+              <!-- contributor header -->
+              <div class="contributor-heading-text">
+                  <h1>Nguyễn Trọng Hiếu</h1>
+              </div>
+              <!-- contributor role -->
+              <div class="contributor-role">
+                  <p>Member</p>
+              </div>
+          </div>
         </div>
-        <div class="col-md-5 offset-1 col2 contributor-card">
-          <a href="" target="_blank">
-            <div class="image_2 member-picture"><img src="images/toàn.jpg"
-                style="border-top-left-radius: 10px; border-top-right-radius: 10px;"></div>
-            <div class="price_text">Nguyễn Ngô Thanh Toàn</div>
-            <h1 class="game_text">Member </h1>
-          </a>
+      </a>
+          </div>
+      </div>
+      <!-- Pagniation -->
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <div class="prev-button">
+          <h1><</h1>
         </div>
-        <div class="col-md-5 offset-1 col2 contributor-card">
-          <a href="" target="_blank">
-            <div class="image_2 member-picture"><img src="images/lợi.jpg"
-                style="border-top-left-radius: 10px; border-top-right-radius: 10px;"></div>
-            <div class="price_text">Nguyễn Trọng Hiếu</div>
-            <h1 class="game_text">Member </h1>
-          </a>
+        <div class="next-button">
+          <h1>></h1>
+        </div>
       </div>
     </div>
-    </div>
-  </div>
+</div>
   <!-- contributors end -->
 
   <!-- copyright section start -->
@@ -233,6 +310,52 @@
   </div>
   <!-- copyright section end -->
   
+  <!-- Swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      const swiper = new Swiper('.swiper-container', {
+        navigation: {
+          nextEl: '.next-button',
+          prevEl: '.prev-button',
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false
+        },
+        slidesPerView: 3,
+        spaceBetween: 30,
+        breakpoints: {
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 10
+                    },
+                    576: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 1,
+                        spaceBetween: 40,
+                    },
+                    992: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    1200: {
+                        slidesPerView: 3,
+                        spaceBetween: 20
+                    },
+                    1400: {
+                        slidesPerView: 3,
+                        spaceBetween: 20
+                    }
+                },
+      });
+    });
+  </script>
+  
+
   <!-- Javascript files-->
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
