@@ -84,6 +84,10 @@
     .about_text{
         text-align: center;
     }
+
+    .copyright_section{
+        margin-top: -60px;
+    }
 }
 
 
@@ -135,7 +139,9 @@
         text-align: center;
     }
 
-
+    .copyright_section{
+        margin-top: -60px;
+    }
 
 }
 

@@ -228,11 +228,6 @@ button {
     float: left;
 }
 
-.collapse
-{
-    display: flex;
-    justify-content: center;
-}
 .navbar {
     padding: 5px 20px;
     position: fixed;
@@ -260,6 +255,10 @@ button {
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #4f99e5;
 }
+
+.nav-item:not(:last-child) {
+    margin-right: 80px; /* Adjust the value as needed */
+  }
 
 .banner_section {
     width: 100%;
@@ -509,6 +508,16 @@ button {
     background-color: white;
     margin: 0 0 20px;
 
+}
+
+.contributor-card{
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 1px 1px 8px #888888;
+}
+
+.contributor-card:hover{
+    box-shadow: 1px 1px 8px #c5c5c5;
 }
 
 .video_text_2{
@@ -812,6 +821,7 @@ button {
     float: left;
     background-color: #599ee9;
     height: auto;
+    margin-top: -40px;
 }
 
 .copyright_text{
