@@ -382,11 +382,12 @@ button {
     font-weight: 600;
     text-transform: uppercase;
     line-height: 70px;
+    text-wrap: wrap;
 }
 .banner_text {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 20px;
     color: #fefeff;
     font-weight: 500;
     margin-left: 0px;
