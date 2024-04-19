@@ -459,16 +459,24 @@ button {
 .about_text{
     width: 100%;
     float: left;
-    font-size: 50px;
+    font-size: 40px;
     color: #2d343e;
     font-weight: 600;
     text-transform: uppercase;
-    text-align: right;
+    text-align: left;
 }
 
 .lorem_text{
     width: 100%;
-    float: left;
+    font-size: 20px;
+    color: #2d343e;
+    margin-left: 0px;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.specifications_details li{
+    width: 100%;
     font-size: 20px;
     color: #2d343e;
     margin-left: 0px;
@@ -522,7 +530,7 @@ button {
 .long_text{
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     color: #363636;
     margin-left: 0px;
     text-align: center;
