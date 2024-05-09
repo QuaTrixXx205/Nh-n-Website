@@ -527,6 +527,18 @@ button {
     margin-bottom: 10px;
 }
 
+.product_text2{
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: #24292f;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
 .long_text{
     width: 100%;
     float: left;
