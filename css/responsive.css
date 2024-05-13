@@ -135,8 +135,20 @@
         top: 0;
     }
 
-    .about_text{
+    .about_text,
+    .product_text span,
+    .product_text2 span{
         text-align: center;
+        font-size: 35px;
+    }
+
+    .lorem_text,
+    .long_text{
+        font-size: 16px;
+    }
+    
+    .copyright_text{
+        font-size: 12px;
     }
 
     .copyright_section{
@@ -442,10 +454,12 @@ ul.link li {
 .image_2 { text-align: center; }
 .margin_top_2 { margin-top: 0px; }
 
+}
 
-
-
-
-
-
+@media (max-width: 1500px)
+{
+    .image_1{
+        width: 100%;
+        padding: 0;
+    }
 }
